@@ -12,7 +12,6 @@ import pandas as pd
 import joblib
 from datetime import datetime, timedelta
 
-import pandas as pd
 import numpy as np
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
