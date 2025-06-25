@@ -17,7 +17,7 @@ import numpy as np
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
 
-df = pd.read_csv("C:\\Users\\fayro\\Downloads\\Rec.sys\\project_dataset.csv", parse_dates=['Date'], index_col='Date')
+df = pd.read_csv("project_dataset.csv", parse_dates=['Date'], index_col='Date')
 
 data = df[df['Dept'] == 29].copy()
 
